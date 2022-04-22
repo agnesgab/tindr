@@ -1,0 +1,211 @@
+header {
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px 25px 70px;
+}
+
+#logo-link, #logo-link:link {
+    text-decoration: none;
+    color: #000;
+}
+
+#logo {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.nav-links a, .nav-links a:link, a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.link-button {
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    background: #207cca; /* Old browsers */
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+}
+
+
+.link-button:hover {
+    color: #FFF;
+}
+
+#admin-login-form {
+    width: 280px;
+    margin: 20px auto;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    text-align: center;
+}
+
+#admin-login-form * {
+    box-sizing: border-box;
+}
+
+#admin-login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#admin-login-form input {
+    display: block;
+    height: 32px;
+    margin-bottom: 15px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+#admin-login-form input[type=radio]{
+    height: 20px;
+    width: 20%;
+    font-size: 16px;
+    color: black;
+}
+
+#admin-login-form .gender-input, .location-input {
+    color: #000;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+}
+
+#admin-login-form select {
+    width: 60%;
+    margin: 5px;
+}
+
+#admin-login-form label {
+    color: #000;
+    font-size: 0.8em;
+}
+
+#admin-login-form button[type=submit] {
+    display: block;
+    margin: 20px auto 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    background: #207cca; /* Old browsers */
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.btn-primary {
+    align-self: center;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+i {
+    font-size: 20px;
+    color: #111111;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.my-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background: #eb2f06;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.my-button i {
+    color: white;
+}
+
+.button-x {
+    background: #0b4093;
+}
+
+.my-button:hover i {
+    transform: scale(1.1);
+}
+.row {
+    height: 300px;
+}
+.col {
+    height: 300px;
+    width: 36%;
+}
+
+.album-img {
+    height: inherit;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-form {
+    width: 100% !important;
+}
+
+.image-form input {
+    height: 50px !important;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: inherit;
+    object-position: center top;
+}
+
+.matches-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.match-card {
+    margin: 10px;
+}
